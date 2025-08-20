@@ -2,13 +2,13 @@
 
 npx lsc -cj > package.json <<EOF
 
-name: 'latex.js'
-description: 'JavaScript LaTeX to HTML5 translator'
+name: 'latex.ts'
+description: 'TypeScript LaTeX to HTML5 translator'
 version: '0.12.6'
 
 author:
-    'name': 'Michael Brade'
-    'email': 'brade@kde.org'
+    'name': 'Ayoub Attalli'
+    'email': 'ayoubattalli50@gmail.com'
 
 keywords:
     'pegjs'
@@ -205,12 +205,12 @@ mocha:
 
 repository:
     type: 'git'
-    url: 'git+https://github.com/michael-brade/LaTeX.js.git'
+    url: 'git+https://github.com/AttalliAyoub/LaTeX.ts.git'
 
 license: 'MIT'
 
 bugs:
-    url: 'https://github.com/michael-brade/LaTeX.js/issues'
+    url: 'https://github.com/AttalliAyoub/LaTeX.ts/issues'
 
 homepage: 'https://latex.js.org'
 

@@ -12,7 +12,7 @@ const latexjs = cmd.create binFile
 
 
 
-describe 'LaTeX.js CLI test', !->
+describe 'LaTeX.ts CLI test', !->
 
     test 'get version', ->
         expect(latexjs.execute ['-V']).to.eventually.include.nested { stdout: pkg.version + EOL }
