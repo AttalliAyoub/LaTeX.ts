@@ -19,13 +19,15 @@
   "module": "./dist/latex.mjs",
   "main": "./dist/latex.js",
   "exports": {
-    "import": {
-      "default": "./dist/latex.mjs",
-      "types": "./dist/index.d.ts"
-    },
-    "require": {
-      "default": "./dist/latex.js",
-      "types": "./dist/index.d.ts"
+    ".": {
+      "import": {
+        "default": "./dist/latex.mjs",
+        "types": "./dist/index.d.ts"
+      },
+      "require": {
+        "default": "./dist/latex.js",
+        "types": "./dist/index.d.ts"
+      }
     },
     "./css/*": "./dist/css/*",
     "./fonts/*": "./dist/fonts/*"
