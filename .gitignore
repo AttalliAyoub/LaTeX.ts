@@ -2,7 +2,7 @@
 .vscode
 *.stats.html
 # /bin/
-/dist/
+# /dist/
 /website/
 /node_modules/
 /test/coverage/
