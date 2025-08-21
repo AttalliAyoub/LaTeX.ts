@@ -26,7 +26,9 @@
     "require": {
       "default": "./dist/latex.js",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./css/*": "./dist/css/*",
+    "./fonts/*": "./dist/fonts/*"
   },
   "browser": "./dist/latex.js",
   "files": [
