@@ -19,8 +19,14 @@
   "module": "./dist/latex.mjs",
   "main": "./dist/latex.js",
   "exports": {
-    "import": "./dist/latex.mjs",
-    "require": "./dist/latex.js"
+    "import": {
+      "default": "./dist/latex.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "require": {
+      "default": "./dist/latex.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "browser": "./dist/latex.js",
   "files": [
