@@ -43,4 +43,35 @@ export class HtmlGenerator {
      * @returns The HTMLDocument.
      */
     htmlDocument(baseURL?: string): Document;
+
+    /**
+     * Instance variables for HTML generation.
+     */
+    sp: string;
+    brsp: string;
+    nbsp: string;
+    visp: string;
+    zwnj: string;
+    shy: string;
+    thinsp: string;
+
+    /**
+     * Static methods for HTML generation.
+     */
+    static create(type: string, classes?: string): HTMLElement;
+    static isBlockLevel(el: HTMLElement): boolean;
+}
+
+/**
+ * A generic generator class.
+ */
+export class Generator {
+    // Define methods and properties as needed based on implementation.
+}
+
+/**
+ * Represents a LaTeX.js component.
+ */
+export class LaTeXJSComponent {
+    // Define methods and properties as needed based on implementation.
 }
