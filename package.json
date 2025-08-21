@@ -33,7 +33,8 @@
     "dist/fonts/",
     "dist/js/",
     "dist/packages/",
-    "dist/documentclasses/"
+    "dist/documentclasses/",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "clean": "rimraf dist bin test/coverage test/test-results.xml docs/.vuepress/public/js;",
