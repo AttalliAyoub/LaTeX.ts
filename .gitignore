@@ -1,7 +1,7 @@
 .uuid
 .vscode
 *.stats.html
-/bin/
+# /bin/
 /dist/
 /website/
 /node_modules/
