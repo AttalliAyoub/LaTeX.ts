@@ -1,7 +1,7 @@
 {
   "name": "latex.ts",
   "description": "TypeScript LaTeX to HTML5 translator",
-  "version": "0.12.6",
+  "version": "0.12.7",
   "author": {
     "name": "Ayoub Attalli",
     "email": "ayoubattalli50@gmail.com"

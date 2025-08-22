@@ -12,6 +12,21 @@ export function parse(latex: string, options: { generator: HtmlGenerator }): Htm
  * Represents a syntax error during parsing.
  */
 export class SyntaxError extends Error {
+    message: string;
+    expected: string | null;
+    found: string | null;
+    location: {
+        start: {
+            offset: number;
+            line: number;
+            column: number;
+        };
+        end: {
+            offset: number;
+            line: number;
+            column: number;
+        };
+    };
     constructor(message: string);
 }
 
